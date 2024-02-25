@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap");
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2 {
+  font-family: "Raleway", sans-serif;
+  font-weight: bold;
+}
+
+
+p {
+  line-height: 1.8;
+  color: hsl(238, 22%, 44%);
+  font-size: 15px;
+}
+
+.btn {
+  background-color: hsl(224, 93%, 58%);
+}
+
+.buttonstart {
+  width: 200px !important;
+  /* Use !important to override existing rules if necessary */
+  min-width: auto !important;
+  /* Set min-width to auto to allow the button to expand */
+  max-width: none !important;
+  /* Set max-width to none to allow the button to expand*/
+}
+
+
+
+li button {
+  color: hsl(238, 22%, 44%);
+  font-size: 15px;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+button {
+  font-family: "Raleway", sans-serif !important;
+}
+
+.link {
+  color: hsl(170, 45%, 43%);
+}
+
+.cta {
+  background-color: hsl(238, 22%, 44%);
+}
+
+.arrowlink {
+  margin-left: 40px;
+}
+
+.testimonial {
+  width: 400px;
+}
+
+.secondsec {
+  margin-top: 30px;
+}
+
+footer {
+  background-color: hsl(243, 87%, 12%);
+}
+
+.footer-logo {
+  margin-bottom: 20px;
+  -webkit-filter: brightness(0) invert(1);
+  filter: brightness(0) invert(1);
+}
+
+.social {
+  display: flex;
+  height: 3rem;
+  gap: 1rem;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.facebook>svg {
+  height: 1.5rem;
+  width: 2rem;
+  margin-left: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.twitter>svg {
+  height: 1.5rem;
+  width: 1.9rem;
+  margin-top: 0.5rem;
+  margin-left: 5px;
+}
+
+.instagram>svg {
+  height: 1.6rem;
+  width: 2rem;
+  margin-top: 7px;
+  margin-left: 6px;
+}
+
+.social-icon {
+  width: 2.75rem;
+  height: 2.75rem;
+  border: 2px solid white;
+  color: white;
+  fill: white;
+  border-radius: 2.5rem;
+}
+
+.social:hover {
+  cursor: pointer;
+}
+
+.social-icon:hover {
+  color: var(--clr-moderate-cyan);
+  fill: var(--clr-moderate-cyan);
+  border: 2px solid var(--clr-moderate-cyan);
+}
+
+.subscribe.flex-item {
+  flex-direction: column;
+}
+
+/* Define dark mode styles */
+.dark-mode {
+  background-color: #000;
+  color: #fff;
+}
+
+/* Update styles for specific elements */
+.dark-mode header {
+  background-color: #000;
+}
+
+.dark-mode footer {
+  background-color: #000;
+}
+
+.dark-mode section {
+  background-color: #000;
+
+}
+
+.dark-mode div {
+  background-color: #000;
+  color: white;
+}
+
+.dark-mode picture {
+  background-color: #000;
+
+}
+
+/* Styles for dark mode image */
+.dark-mode-image img {
+  filter: brightness(0);
+}
+
+/* Styles for dark mode sections */
+.dark-mode-section {
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.darkbutton {
+  background-color: #fff;
+  color: black;
+  padding: 10px;
+  font-weight: bold;
+  border-radius: 10px;
+}
+
+
+@media (min-width: 1024px) {
+  p {
+    font-size: 16px;
+  }
+
+
+}
